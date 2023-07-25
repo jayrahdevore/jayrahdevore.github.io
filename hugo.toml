@@ -1,0 +1,4 @@
+baseURL = 'https://jayrahdevore.github.io/'
+languageCode = 'en-us'
+title = 'jayrah.dev | About me'
+theme = 'hugo-bearblog'
