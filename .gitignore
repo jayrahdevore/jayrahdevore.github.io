@@ -11,7 +11,7 @@ bin-release/
 .settings/
 
 # lock
-*.lock
+# *.lock
 
 # Executables
 *.swf
