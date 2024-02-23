@@ -3,3 +3,4 @@ languageCode = 'en-us'
 title = 'Jayrah DeVore | About me'
 theme = 'hugo-bearblog'
 enableEmoji = true
+features = ["favicon", "seo", "no stylesheets", "no javascript", "rss", "dark mode"]
