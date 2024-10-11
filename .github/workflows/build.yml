@@ -16,7 +16,7 @@ jobs:
     - run: |
         git submodule update --init --recursive
         nix build .?submodules=1#default
-    - uses: actions/upload-artifact@v4
+    - uses: actions/upload-pages-artifact@v3
       with:
         name: github-pages
         path: result/
