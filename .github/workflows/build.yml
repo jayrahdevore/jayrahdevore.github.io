@@ -1,0 +1,26 @@
+name: "Build and deploy"
+on:
+  pull_request:
+  push:
+jobs:
+  build:
+    permissions:
+      pages: write
+      id-token: write
+      contents: read
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v4
+    - uses: DeterminateSystems/nix-installer-action@main
+    - uses: DeterminateSystems/magic-nix-cache-action@main
+    - run: |
+        git submodule update --init --recursive
+        nix build .?submodules=1#default
+    - uses: actions/upload-artifact@v4
+      with:
+        name: github-pages
+        path: result/
+    - uses: actions/deploy-pages@v4
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}

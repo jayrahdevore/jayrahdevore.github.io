@@ -1,7 +1,7 @@
 {
   inputs.nixpkgs.url = "github:nixos/nixpkgs/release-23.11";
 
-  outputs = inputs@{ flake-parts, ... }:
+  outputs = inputs@{ self, flake-parts, ... }:
     flake-parts.lib.mkFlake { inherit inputs; } {
       systems = inputs.nixpkgs.lib.systems.flakeExposed;
 
@@ -12,6 +12,19 @@
         {
           devShells.default = pkgs.mkShell {
             buildInputs = [ just jq hugo ];
+          };
+          packages.default = pkgs.stdenv.mkDerivation {
+            name = "jayrahdevore-github-io";
+            src = self;
+            buildInputs = [hugo];
+            buildPhase = ''
+            cp -r $src/* .
+            hugo -D
+            '';
+            installPhase = ''
+              mkdir -p $out/
+              cp -r public/* $out/
+            '';
           };
         };
     };
