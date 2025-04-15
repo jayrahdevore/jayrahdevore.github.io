@@ -8,10 +8,11 @@
       perSystem = { self', pkgs, ... }:
         let
           inherit (pkgs) just hugo jq;
+          myaspell = pkgs.aspellWithDicts (d: [d.en]);
         in
         {
           devShells.default = pkgs.mkShell {
-            buildInputs = [ just jq hugo ];
+            buildInputs = [ just jq hugo myaspell ];
           };
           packages.default = pkgs.stdenv.mkDerivation {
             name = "jayrahdevore-github-io";
