@@ -4,7 +4,7 @@ Description: "Jayrah DeVore | Profile"
 # layout: "about"
 ---
 
-# About Me!
+## About Me
 
 My name is **Jayrah**. I'm an engineer with a background combining computer
 science, mathematics, and electrical engineering. I received my B.S. in Computer
