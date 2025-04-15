@@ -4,30 +4,28 @@ Description: "Jayrah DeVore | Profile"
 # layout: "about"
 ---
 
-# Hi, there!
+# About Me!
 
-My name is **Jayrah**, and I'm a technologist with a diverse background of
-computer science, mathematics, and electrical engineering. I recieved my B.S. in
-Computer Science from Eastern Kentucky University in 2023 and am currently
-working as an **Senior Software Engineer** at
+My name is **Jayrah**. I'm an engineer with a background combining computer
+science, mathematics, and electrical engineering. I received my B.S. in Computer
+Science from Eastern Kentucky University in 2023 and am currently working as an
+**Senior Software Engineer** at
 [Badger Technologies](https://badger-technologies.com) in Nicholasville, KY.
 
 ## Skills / Technologies
 
-- Software Development / Python / C++
+- Software Development in Rust / Python / C++
+- Machine Vision
 - DOE and Product Engineering R&D
-- Machine Vision / OpenCV
-- Documentation / LaTeX
-- Software Collaboration / Git
-- Open Source Development / Linux
-- Numerical and Data Analysis / Pandas / Scikit / Plotly
-- Containerized Applications / Docker
+- Numerical and Data Analysis
 
-## Future Interests
+## We can build better software together
 
-- Rust-Lang
-- Open source software
-- Open Machine Learning / Torch / ONNX
+- Memory safety + compile time validation / Rust
+- Development and CI reproducibility / Nix
+- Optimized OCI containerization / Nix
+- System configuration / NixOS
+- Software delivery / Nix, Yocto, Buildroot
 
 ## Experience
 
@@ -44,10 +42,10 @@ working as an **Senior Software Engineer** at
 
 ## Hobbies
 
-- Amateur Radio (General Class Licensed Operator, KK4FIJ)
+- Amateur Radio (Extra Class Licensed Operator, KK4FIJ)
 - Self-hosting cloud service alternatives at home
 - Hiking
-- Automotive Maintenence
+- Automotive Maintenance
 
 ## Public Projects
 
