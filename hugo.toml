@@ -1,6 +1,6 @@
 baseURL = 'https://jayrahdevore.github.io/'
 languageCode = 'en-us'
-title = 'Jayrah DeVore | About me'
+title = 'jayrah.dev | Jayrah DeVore'
 theme = 'hugo-bearblog'
 enableEmoji = true
 features = ["favicon", "seo", "no stylesheets", "no javascript", "rss", "dark mode"]

@@ -4,8 +4,6 @@ Description: "Jayrah DeVore | Profile"
 # layout: "about"
 ---
 
-## About Me
-
 My name is **Jayrah**. I'm an engineer with a background combining computer
 science, mathematics, and electrical engineering. I received my B.S. in Computer
 Science from Eastern Kentucky University in 2023 and am currently working as an
@@ -16,7 +14,7 @@ Science from Eastern Kentucky University in 2023 and am currently working as an
 
 - Software Development in Rust / Python / C++
 - Machine Vision
-- DOE and Product Engineering R&D
+- Product Engineering R&D
 - Numerical and Data Analysis
 
 ## We can build better software together
@@ -30,15 +28,14 @@ Science from Eastern Kentucky University in 2023 and am currently working as an
 ## Experience
 
 - **Senior Software Engineer** - Badger Technologies (January 2023 -- _present_)
-- **Software Development Intern** - Badger Technologies (October 2019 --
+- Software Development Intern - Badger Technologies (October 2019 --
   January 2023)
-- **Mathematics Tutor** - Eastern Kentucky University (January 2019 -- May 2019)
+- Mathematics Tutor - Eastern Kentucky University (January 2019 -- May 2019)
 
 ## Education
 
-- **B.S. Computer Science**
-- Eastern Kentucky University
-- Graduated May 2023, _Summa cum Laude_
+**B.S. Computer Science** - Eastern Kentucky University (Graduated May 2023 --
+_Summa Cum Laude_)
 
 ## Hobbies
 
@@ -47,6 +44,7 @@ Science from Eastern Kentucky University in 2023 and am currently working as an
 - Hiking
 - Automotive Maintenance
 
-## Public Projects
+## Contact
 
-- [tldj](https://github.com/jayrahdevore/tldrj), the friendly JSON drilldown
+- [LinkedIn](https://www.linkedin.com/in/jayrah-devore/)
+- [GitHub](https://github.com/jayrahdevore)
